@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color:gainsboro;
+}
+header{
+    background-color: gray;
+    height: 60px;
+    /* margin-left: 75px; */
+    position: sticky;
+    /* top: 0; */
+
+}
+.sidebar{
+    position: relative;
+ background-color: rgb(230, 238, 238);
+ height: 100vh;
+ width:80px;
+ z-index: 100;
+ marg
+ 
+}
+.logo img{
+    
+    height: 60px;
+    
+    /* margin-right: 123px; */
+}
+
+.contact-img{
+    width: 40%;
+    margin-top: 4px;
+    margin-left:4px;
+    
+
+}
+.setting-img{
+    width: 40%;
+    margin-left: 4px;
+    margin-top: 4px;
+
+}
+.lessonplan-img{
+    width: 40%;
+    margin-left: 4px;
+
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+ul li{
+    list-style: none;
+    padding: 2px;
+    font-family: serif;
+    font-size: small;
+}
+.middleone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
+    background-color: rgba(184, 220, 240, 0.904);
+}
+.uii {
+    background-color: rgb(17, 74, 132);
+    position: absolute; /* Change position to absolute */
+    z-index: 2000; /* Increase the z-index */
+    height: 8vh;
+    width: 3px;
+    margin-top: 124px;
+    
+  }
+  .vid{
+    display: block;
+    margin-left:100px
+  }
+  .sec{
+    display: flex;
+    align-items: center; 
+  }
+  .in{
+    margin-left: 283px;
+    border-radius: 4px;
+    border-color: white;
+    text-align: center;
+  }
+  .upload{
+    margin-left:283px; 
+    padding-top:8px ;
+  }
+  p{
+    color: black;
+    margin-top: 2px;
+    margin-left: 350px;
+  }
