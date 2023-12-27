@@ -4,10 +4,10 @@
 
 }
 body{
-    background-color:gainsboro;
+    background-color: rgb(252, 252, 252);
 }
 header{
-    background-color: gray;
+    background-color: rgb(246, 243, 243);
     height: 60px;
     /* margin-left: 75px; */
     position: sticky;
@@ -15,17 +15,19 @@ header{
 
 }
 .sidebar{
+    box-shadow: 0px 10px;
     position: relative;
- background-color: rgb(230, 238, 238);
+ background-color: rgb(241, 236, 236);
  height: 100vh;
  width:80px;
  z-index: 100;
- marg
+
  
 }
 .logo img{
     
     height: 60px;
+    width:78px
     
     /* margin-right: 123px; */
 }
